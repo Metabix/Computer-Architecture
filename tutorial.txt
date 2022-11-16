@@ -1,0 +1,26 @@
+1)  Run the following command for running hello program on Systematic Evaluation: 
+    build/ARM/gem5.opt configs/example/se.py -c tests/test-progs/hello/bin/arm/linux/hello
+    
+    Output: 
+            gem5 Simulator System.  https://www.gem5.org
+            gem5 is copyrighted software; use the --copyright option for details.
+
+            gem5 version 22.0.0.2
+            gem5 compiled Nov  2 2022 11:08:14
+            gem5 started Nov 15 2022 21:39:40
+            gem5 executing on mohit-VB, pid 2235
+            command line: build/ARM/gem5.opt configs/example/se.py -c tests/test-progs/hello/bin/arm/linux/hello
+
+            Global frequency set at 1000000000000 ticks per second
+            warn: failed to generate dot output from m5out/config.dot
+            build/ARM/mem/dram_interface.cc:690: warn: DRAM device capacity (8192 Mbytes) does not match the address range assigned (512 Mbytes)
+            0: system.remote_gdb: listening for remote gdb on port 7000
+            **** REAL SIMULATION ****
+            build/ARM/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+            Hello world!
+            Exiting @ tick 2916500 because exiting with last active thread context
+            Simulated exit code not 0! Exit code is 13
+
+
+2)  Is used to give help promp on what commands can be run on se
+    build/ARM/gem5.opt configs/example/se.py --help
