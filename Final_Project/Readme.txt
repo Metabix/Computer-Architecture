@@ -17,6 +17,10 @@ Benchmark performance comparison of In-order and Out-of-order CPU using ARM8 sys
 
 5) check gem5/m5out you will find two files simout and simerr
 
+6) for O3CPU 
+./build/ARM/gem5.opt -re configs/example/se.py --cpu-type=ArmO3CPU --mem-size=8192MB -c ~/testbench/basicmath/basicmath_small -o  basicmath_small --caches
+
+
 #example 
 ./build/ARM/gem5.opt -re configs/example/se.py --cpu-type=ArmAtomicSimpleCPU --mem-size=8192MB -c /home/mohit/testbench/fft -o '100 64'
 
