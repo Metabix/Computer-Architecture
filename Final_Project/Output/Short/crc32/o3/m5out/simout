@@ -1,0 +1,13 @@
+gem5 Simulator System.  https://www.gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 version 22.0.0.2
+gem5 compiled Nov  2 2022 11:08:14
+gem5 started Nov 27 2022 22:19:37
+gem5 executing on mohit-VB, pid 4362
+command line: ./build/ARM/gem5.opt -re configs/example/se.py --cpu-type=ArmO3CPU --mem-size=8192MB -c /home/mohit/testbench/CRC32/crc -o /home/mohit/testbench/CRC32/small.pcm --caches --l2_assoc=8 --l2cache --l1i_size=32kB --l1d_size=32kB --l2_size=512kB
+
+Global frequency set at 1000000000000 ticks per second
+**** REAL SIMULATION ****
+6DA5B639 1368864 /home/mohit/testbench/CRC32/small.pcm
+Exiting @ tick 15108619500 because exiting with last active thread context
