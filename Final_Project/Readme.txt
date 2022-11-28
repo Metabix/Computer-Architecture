@@ -21,6 +21,9 @@ Benchmark performance comparison of In-order and Out-of-order CPU using ARM8 sys
 ./build/ARM/gem5.opt -re configs/example/se.py --cpu-type=ArmO3CPU --mem-size=8192MB -c ~/testbench/basicmath/basicmath_small -o  basicmath_small --caches
 
 
+Output sheet: 
+https://docs.google.com/spreadsheets/d/1-G0LA22AryGNLPD-S85atQ2b0xxEIxdHnhFIW_ZTUJw/edit?usp=sharing
+
 #example 
 ./build/ARM/gem5.opt -re configs/example/se.py --cpu-type=ArmAtomicSimpleCPU --mem-size=8192MB -c /home/mohit/testbench/fft -o '100 64'
 
