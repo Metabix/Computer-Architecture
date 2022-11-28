@@ -1,0 +1,5 @@
+warn: failed to generate dot output from m5out/config.dot
+0: system.remote_gdb: listening for remote gdb on port 7000
+build/ARM/sim/simulate.cc:194: info: Entering event queue @ 0.  Starting simulation...
+build/ARM/sim/mem_state.cc:443: info: Increasing stack size by one page.
+build/ARM/sim/syscall_emul.cc:74: warn: ignoring syscall mprotect(...)
